@@ -36,7 +36,7 @@
     
     <nav class="topNavbar">
         <div class="logoWrapper">
-            <a href="${client.baseUrl}/"><div class="Logo"></div></a>
+            <a href="${client.baseUrl}/"><div></div></a>
         </div>
     </nav>
 

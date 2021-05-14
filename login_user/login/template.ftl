@@ -103,8 +103,7 @@
     </div>
     
     <div class="socialBar">
-        <a href=""><div class="socialIconTw"></div></a>
-        <a href=""><div class="socialIconFb"></div></a>
+    
 
     </div>
 

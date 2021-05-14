@@ -53,11 +53,11 @@
         <#if realm.password && social.providers??>
 
             <div id="kc-social-providers" class="${properties.kcFormSocialAccountContentClass!} ${properties.kcFormSocialAccountClass!}">
-                          <div id="login-with-social" >O ingrese con las siguientes redes sociales</div>
+                          <div id="login-with-social" >Entra com as seguintes redes sociais</div>
 
                 <ul class="${properties.kcFormSocialAccountListClass!} <#if social.providers?size gt 4>${properties.kcFormSocialAccountDoubleListClass!}</#if>">
                     <#list social.providers as p>
-                        <li class="${properties.kcFormSocialAccountListLinkClass!}"><a href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span>${'Ingresar con ' + p.displayName}</span></a></li>
+                        <li class="${properties.kcFormSocialAccountListLinkClass!}"><a href="${p.loginUrl}" id="zocial-${p.alias}" class="zocial ${p.providerId}"> <span>${'Entra com ' + p.displayName}</span></a></li>
                     </#list>
                 </ul>
             </div>
